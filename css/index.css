@@ -1,0 +1,33 @@
+
+/* p{
+    color: blue;
+} */
+/* selector is of 3 types
+1> tag name selector
+2> id selector(#)
+3> class selector(.)-> multivalues we can give
+no need of uniqueness.
+ */
+
+/* #p1{
+    color: red;
+}
+#p2{
+    color: greenyellow;
+}
+
+.sec1{
+    color: blueviolet;
+}
+
+.sec2{
+    color: aquamarine;
+} */
+
+#para{
+    color: red;
+}
+
+.para{
+    color: blue
+}
