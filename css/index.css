@@ -1,15 +1,15 @@
 
-/* p{
+p{
     color: blue;
-} */
-/* selector is of 3 types
+}
+selector is of 3 types
 1> tag name selector
 2> id selector(#)
 3> class selector(.)-> multivalues we can give
 no need of uniqueness.
- */
 
-/* #p1{
+
+#p1{
     color: red;
 }
 #p2{
@@ -22,7 +22,7 @@ no need of uniqueness.
 
 .sec2{
     color: aquamarine;
-} */
+}
 
 #para{
     color: red;
@@ -32,7 +32,7 @@ no need of uniqueness.
     color: blue
 }
 
-/* 
+
 id will have more priority compare 
 id>class>tagname
-to class */
+to class
