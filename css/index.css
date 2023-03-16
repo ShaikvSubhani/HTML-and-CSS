@@ -31,3 +31,8 @@ no need of uniqueness.
 .para{
     color: blue
 }
+
+/* 
+id will have more priority compare 
+id>class>tagname
+to class */

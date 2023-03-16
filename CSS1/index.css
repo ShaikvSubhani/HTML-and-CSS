@@ -1,0 +1,81 @@
+/* .child{
+    color: brown;
+} */
+
+/* if the child class has its own color then it will take that
+else it will inherit parent class color */
+
+/* .parent{
+    color:greenyellow;
+} */
+/* 
+div>b{
+    color: aqua;
+} */
+
+/* div b{
+    color: blue;
+}
+
+div p{
+    color: burlywood;
+} */
+
+/* .one + .two{
+    color: red;
+} */
+
+
+/*tilde(~) operator will select all the next siblings */
+/* plus(+) operator will select only the immmediate siblings */
+/* .one ~ .two{
+    color: brown;
+} */
+
+/* .test{
+    background-color: blue;
+    color: white;
+
+    /* this is how you can manage your content area */
+    /* width: 200px;
+    height: 200px; */
+    /* padding-top: 20px;
+    padding-left: 30px;
+
+    padding-bottom: 20px;
+    padding-right: 30px; */
+
+    /* padding: 10px 20px 30px 40px;
+
+    border-top-width: 20px;
+    border-top-style: dashed;
+    border-top-color: red;
+    border-bottom-width: 20px;
+    border-bottom-style: dotted;
+    border-bottom-color:yellow; */
+/* } */
+
+/* body{
+    width: 200px;
+    height: 50px;
+    margin:0 auto;
+} */
+.test{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+h1{
+    width: 200px;
+    height: 50px;
+    margin:0 auto;
+}
+
+.one{
+    margin-bottom: 20px;
+}
+
+
