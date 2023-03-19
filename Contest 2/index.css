@@ -1,0 +1,121 @@
+nav{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+nav > h1{
+    color: white;
+}
+
+nav > div{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    /* justify-content: end; */
+    align-items: center;
+}
+
+nav input,nav button{
+    background-color: rgba(38, 38, 38, 1);
+    padding: 6px 20px;
+    border-radius: 10px;
+   
+}
+
+nav  div  input{
+    flex-grow: 1;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+nav button{
+    color: white;
+}
+
+/* img{
+    background-color: yellow;
+} */
+
+.header-section{
+    background-color:  rgba(38, 38, 38, 1);
+    padding: 20px;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.small-image{
+   width: 50px;
+    /* border-radius: 50%; */
+
+}
+
+.large-image{
+    width: 150px;
+}
+
+.header-left > .item{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.header-right button{
+    background-color: rgba(254, 203, 3, 1);
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.categories{
+    margin: 20px 50px;
+    /* background-color:  rgba(38, 38, 38, 1); */
+}
+
+.cards-container{
+    /* color: 
+    rgba(196, 196, 196, 0.8); */
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+    padding: 1px;
+    gap: 1%;
+    
+
+}
+
+.card{
+    color: 
+    rgba(196, 196, 196, 0.8);
+    padding: 5px;
+    width: 30%;
+    margin: 10px;
+    border: rgba(38, 38, 38, 1) solid 2px;
+    border-radius: 10px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.cards-container div button{
+    background-color: rgba(254, 203, 3, 1);
+    color: black;
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}

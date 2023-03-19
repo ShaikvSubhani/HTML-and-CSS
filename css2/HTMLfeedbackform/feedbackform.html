@@ -7,27 +7,45 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Feedback Form</h1>
+    <!-- <h1>Feedback Form</h1> -->
     <form method="POST">
         
         <label for="name">Name</label>
-        <input type="text" id="name" minlength="3" maxlength="50">
+        <input required type="text" id="name" ><br><br>
 
-        <label for="portfolio">Portfolio</label>
-        <input type="url" id="portfolio">
+        <label for="email">Email</label>
+        <input required type="email" id="email"><br><br>
 
-        <label for="favColor">Select your favorite color:</label>
-       <input type="color" id="favColor" name="favColor" value="#ff0000">
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input required type="radio" id="male" name="gender"><br>
+        <label for="female">Female</label>
+        <input required type="radio" id="female" name="gender"><br><br>
 
-        <label for="likeness">Likeness:</label>
-        <input type="range" name="likeness" id="likeness" minlength="1" maxlength="100">
+        <label for="cars">Choose your car</label><br>
+        <select name="cars" id="cars">
+            <option value="">--Please choose an option--</option>
+            <option value="1">BMW</option>
+            <option value="2">Audi</option>
+            <option value="3">Mercedez</option>
+        </select><br><br>
 
-        <label for="submit">Submit:</label>
-        <button type="submit" id="submit">Submit</button>
+        <label for="age">Age</label>
+        <input  required type="number" name="age" id="age"><br><br>
 
+        <label for="dob">DOB</label>
+        <input required type="date" id="dob"><br><br>
 
+        <label for="phone">Phone Number</label>
+        <input required type="number" id="phone"><br><br>
 
+        <label for="password">Password</label>
+        <input required type="password" id="password"><br><br>
 
+        <input type="checkbox" id="tos" value="TOS">
+        <label for="tos">I agree to the TOS</label>
+        <hr>
+        <button type="submit">submit button</button>
 
     </form>
 </body>
