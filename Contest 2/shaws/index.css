@@ -1,0 +1,21 @@
+header div{
+    background-color: #011e29;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main{
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 20px;
+    align-self: center;
+}
+
+section > div > .third{
+    width:50px;
+    padding-left: 40px;
+}
