@@ -1,0 +1,21 @@
+.grid-container{
+    background-color: black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto 2fr;
+}
+
+div{
+    background-color: purple;
+    margin: 2px;
+    color: white;
+    padding: 10px;
+    
+
+}
+
+.grid-item1{
+    background-color: tomato;
+    grid-column: 1 / 4;
+}
