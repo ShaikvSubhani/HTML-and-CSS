@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.dropdown:hover{
+    color:#2394ed;
+
+}
+
+    
+
+.list{
+    display: none;
+    /* display: inline-flex; */
+    flex-direction: column;
+    padding: 10px;
+    /* padding-top: 0px; */
+    position: absolute;
+    background-color:white ;
+    top: 25px;
+    left: 0;
+    box-shadow: 2px 2px 10px gray;
+    gap: 6px;
+    border-radius: 10px;
+}
+
+ a{
+    text-decoration:  none;
+    gap: 4px;
+    color: black;
+    
+}
+
+.list > a{
+    font-size: 10px;
+}
+
+.list > a:hover{
+    color: #2394ed;
+}
+
+.dropdown:hover  .list{
+    display: inline-flex;
+}
+
+.dropdown{
+    position: relative;
+}
+
+img{
+    height: 50px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-half{
+    display: flex;
+
+  
+
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.signin,.signup{
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.signin{
+    border: 1px solid;
+}
+
+.signup{
+    border: none;
+    background-color: #2394ed;
+}

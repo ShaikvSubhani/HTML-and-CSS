@@ -1,0 +1,32 @@
+.test{
+    color: red;
+    
+    /* now I want to change the color with the device width
+    like if conditions
+    if width >some size:
+    then this color
+    else
+    some other color*/
+
+   
+} 
+@media (min-width: 600px) {
+    .test{
+        color: blue;
+    }
+    
+}
+
+@media (min-width: 700px) {
+    .test{
+        color: orange;
+    }
+    
+}
+
+@media (min-width: 700px) , (max-width : 800px){
+    .test{
+        color: blueviolet;
+    }
+    
+}
