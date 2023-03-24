@@ -1,0 +1,42 @@
+/* .test{
+    color: blue;
+    border: 2px solid red;
+    width: 200px;
+    transition-property: width border;
+    transition-duration: 2s;
+    transition-delay: 4s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);  
+    in inspect above command show the graph
+}
+
+/* .test:hover{
+    width: 400px;
+    border: 10px solid blue;
+} */ 
+
+.test{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    transform: rotateZ(30deg);
+}
+
+.test{
+    animation-name: firstAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+}
+
+
+@keyframes firstAnimation {
+    from{
+        width: 100px;
+        height: 100px;
+    }
+
+    to{
+        width: 200px;
+        height: 200px;
+    }
+}

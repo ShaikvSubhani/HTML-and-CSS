@@ -90,3 +90,7 @@ nav{
     border: none;
     background-color: #2394ed;
 }
+
+.signin:hover{
+    color: blue;
+}

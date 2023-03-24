@@ -1,0 +1,56 @@
+.move-right{
+    /* border: 2px solid red; */
+    transform: translateX(0px);
+    color: rgba(0, 0,0, 1);
+    animation: moveRight 0.8s  ease-in-out;
+}
+
+body{
+    background-color: #6dca89;
+}
+
+.btn{
+    background-color: white;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    animation: moveToTop 0.8s;
+}
+@keyframes moveRight{
+    from{
+        color: rgba(0, 0,0, 0);
+        transform: translateX(-100px);
+    }
+    to{
+        color: rgba(0, 0,0, 1);
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveToTop{
+    from{
+        transform: translateY(50px);
+    }
+    to{
+     transform: translateY(0);
+    }
+}
+
+
+.menu-container{
+    margin: 200px auto 0px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.line{
+    height: 2px;
+    background-color:black;
+}
