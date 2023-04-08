@@ -1,0 +1,57 @@
+
+.item{
+    height: 50px;
+    background-color: purple;
+}
+
+
+
+.device::before{
+content: 'XS';
+color: red;
+}
+
+
+@media (min-width: 576px){
+    .device::before{
+        content: 'SM';
+        /* color; */
+    }
+}
+
+@media (min-width: 768px)
+{
+    .device::before{
+        content: 'MD';
+    }
+}
+
+@media (min-width: 992px)
+{
+    .device::before{
+        content: 'LG';
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .device::before{
+        content: 'XL';
+    }
+}
+
+
+@media (min-width: 1400px)
+{
+    .device::before{
+        content: 'XXL';
+    }
+}
+
+
+
+
+
+
+
+
