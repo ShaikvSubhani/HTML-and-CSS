@@ -1,0 +1,23 @@
+.container{
+    background-color: blue;
+    color: white;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.item{
+    border: 2px solid black;
+    
+}
+
+ span{
+    position: relative;
+   top: 40px;
+   left:29px;
+   
+    
+    
+}
