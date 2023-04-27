@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    background-color: lightblue;
+    display: grid;
+    /* repeat(4,25%) */
+    grid-template-columns: 25% 25% 25% 25%;  
+    align-items: center;
+}
+
+.container .item{
+    
+    width: 25%;
+    color: white;
+    background-color: blue;
+    margin: 5px;
+}
